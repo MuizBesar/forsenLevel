@@ -1,0 +1,39 @@
+body {
+    margin-top: 100px;
+    background-color: rgb(12, 12, 12);
+}
+
+
+h1,
+p {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: whitesmoke;
+}
+
+
+#currentTime {
+    font-size: 50px;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    display: block;
+    margin: 0 auto;
+}
+
+#small {
+    font-size: 12px;
+}
+
+@media screen and (max-width: 600px) {
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    #currentTime {
+        font-size: 30px;
+    }
+}
